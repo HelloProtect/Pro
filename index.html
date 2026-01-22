@@ -3,17 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Visualisation Professionnelle</title>
+  <title>Visualisation Pro</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <h1>Visualisation des Possibilités</h1>
+    <div class="controls">
+      <label for="sort">Trier par :</label>
+      <select id="sort">
+        <option value="title">Titre</option>
+        <option value="value">Valeur</option>
+      </select>
+    </div>
   </header>
 
   <main>
     <div id="visualisation" class="container">
-      <!-- Les données seront affichées ici -->
+      <!-- Les cartes seront générées ici -->
     </div>
   </main>
 
