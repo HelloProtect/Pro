@@ -1,38 +1,58 @@
 const data = [
   {
-    title: "Option A",
-    description: "Description détaillée de l'option A",
+    title: "Professeur",
+    description: "Transmettre des connaissances, accompagner les élèves et participer à leur développement intellectuel.",
     value: 45,
-    category: "Catégorie 1",
+    category: "Éducation",
     date: "2026-01-22",
     status: "Actif",
-    notes: "Cette option est prioritaire et nécessite suivi."
+    studies: "Master + concours",
+    salary: "2 000 – 3 500 € / mois",
+    skills: ["Pédagogie", "Patience", "Communication"],
+    pros: "Stabilité de l’emploi, sens du travail",
+    cons: "Salaire limité, charge mentale",
+    notes: "Métier stable mais demande un fort engagement personnel."
   },
   {
-    title: "Option B",
-    description: "Description détaillée de l'option B",
+    title: "Écrivain",
+    description: "Créer des œuvres littéraires (romans, essais, scénarios) et développer un univers créatif.",
     value: 80,
-    category: "Catégorie 2",
+    category: "Création",
     date: "2026-01-20",
     status: "Inactif",
-    notes: "Option en pause, à réévaluer prochainement."
+    studies: "Autodidacte ou études littéraires",
+    salary: "Très variable",
+    skills: ["Créativité", "Discipline", "Maîtrise du langage"],
+    pros: "Liberté créative, travail passion",
+    cons: "Instabilité financière",
+    notes: "Fort potentiel personnel mais risque élevé."
   },
   {
-    title: "Option C",
-    description: "Description détaillée de l'option C",
+    title: "Psychologue",
+    description: "Accompagner les patients dans la compréhension et l’amélioration de leur santé mentale.",
     value: 30,
-    category: "Catégorie 1",
+    category: "Santé",
     date: "2026-01-18",
     status: "Actif",
-    notes: "Option peu prioritaire mais utile pour statistiques."
+    studies: "Master en psychologie",
+    salary: "2 200 – 4 000 € / mois",
+    skills: ["Écoute", "Empathie", "Analyse"],
+    pros: "Impact humain fort",
+    cons: "Études longues, charge émotionnelle",
+    notes: "Métier utile mais exigeant sur le plan mental."
   },
   {
-    title: "Option D",
-    description: "Description détaillée de l'option D",
+    title: "Ingénieur en armement",
+    description: "Concevoir et améliorer des systèmes technologiques pour la défense.",
     value: 60,
-    category: "Catégorie 3",
+    category: "Ingénierie",
     date: "2026-01-15",
     status: "Actif",
-    notes: "Option clé pour l'analyse finale."
+    studies: "École d’ingénieur",
+    salary: "3 500 – 6 000 € / mois",
+    skills: ["Maths", "Physique", "Rigueur"],
+    pros: "Salaire élevé, haute technicité",
+    cons: "Questions éthiques, pression",
+    notes: "Choix stratégique mais moralement sensible."
   }
 ];
