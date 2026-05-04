@@ -39,19 +39,6 @@ const data = [
     notes: "Métier noble mais mentalement exigeant."
   },
   {
-    title: "Avocat",
-    description: "Défendre les intérêts juridiques de ses clients et les conseiller en droit.",
-    value: 70,
-    category: "Droit",
-    date: "2026-01-17",
-    studies: "Master en droit + CAPA (6 à 7 ans)",
-    salary: "2 500 – 6 000 € / mois",
-    skills: ["Argumentation", "Analyse", "Éloquence"],
-    pros: "Prestige, évolution possible",
-    cons: "Stress, longues heures",
-    notes: "Carrière exigeante mais valorisante."
-  },
-  {
     title: "Comptable",
     description: "Gérer la comptabilité et les obligations financières des entreprises.",
     value: 65,
